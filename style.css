@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.btn, .btn-outline {
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 500;
+}
+
+.btn {
+  background: #fff;
+  color: #1e40af;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.project-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.project-card span {
+  color: #2563eb;
+  font-size: 0.9rem;
+}
+
+.project-links a {
+  margin-right: 15px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer {
+  background: #111827;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.4rem;
+}
